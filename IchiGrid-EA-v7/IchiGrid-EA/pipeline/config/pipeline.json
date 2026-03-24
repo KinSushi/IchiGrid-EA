@@ -1,0 +1,53 @@
+{
+  "project": "IchiGridEA",
+  "version": "7.0",
+  "github": {
+    "repo": "https://github.com/KinSushi/IchiGrid-EA.git",
+    "branch": "main",
+    "user": "KinSushi",
+    "email": "dibaccointernacional@gmail.com"
+  },
+  "ovh": {
+    "host": "92.222.226.50",
+    "port": 9000,
+    "user": "ubuntu",
+    "key": "~/.ssh/ovh_serveur",
+    "path": "/opt/ichigrid-mirror",
+    "http": "http://92.222.226.50:9000/"
+  },
+  "generation": {
+    "model": "claude-opus-4-6-20250611",
+    "excel_source": "Excel/EA_Master_vLLM.xlsx",
+    "template_mqh": "Templates/_MODULE_NAME___v412_.mqh",
+    "template_mq5": "Templates/_EA_NAME___v412_.mq5"
+  },
+  "structure": {
+    "_comment": "Mapping Excel Path levels → dossiers physiques",
+    "levels": {
+      "Core": {"code": "Include/Core", "data": "Data/Core", "resources": "Resources/Core"},
+      "IchimokuSignals": {"code": "Include/IchimokuSignals", "data": "Data/IchimokuSignals", "resources": "Resources/Core"},
+      "L1": {"code": "Include/L1", "data": "Data/L1", "resources": "Resources/L1"},
+      "L2": {"code": "Include/L2", "data": "Data/L2", "resources": "Resources/L2"},
+      "L3": {"code": "Include/L3", "data": "Data/L3", "resources": "Resources/L3"}
+    },
+    "routing": {
+      "_comment": "Extension → type de dossier cible",
+      ".mqh": "code",
+      ".mq5": "code",
+      ".csv": "data",
+      ".json": "data",
+      ".dat": "data",
+      ".png": "resources",
+      ".log": "resources",
+      ".md": "resources",
+      ".txt": "resources",
+      ".zip": "resources"
+    },
+    "stats_expected": {
+      "total_modules": 13340,
+      "by_level": {"Core": 188, "IchimokuSignals": 44, "L1": 1258, "L2": 5391, "L3": 6459},
+      "by_extension": {".mqh": 13340, ".csv": 12821, ".json": 415, ".png": 37, ".log": 10, ".md": 10, ".zip": 5, ".dat": 2, ".txt": 1},
+      "total_files_expected": 26641
+    }
+  }
+}

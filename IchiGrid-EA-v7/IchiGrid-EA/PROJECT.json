@@ -1,0 +1,86 @@
+{
+  "_updated": "2026-03-23T20:01:44Z",
+  "project": "IchiGridEA",
+  "version": "7.0",
+  "stats": {
+    "total_files": 17,
+    "total_lines": 162692,
+    "code_files": 2,
+    "code_lines": 3103,
+    "data_files": 3,
+    "resource_files": 2,
+    "generated_files": 7,
+    "excel_modules": 13340,
+    "expected_files": 26641,
+    "progress_pct": 0.03,
+    "sections_covered": 0
+  },
+  "by_extension": {
+    ".py": 4,
+    ".json": 3,
+    ".md": 2,
+    ".docx": 2,
+    ".xlsx": 2,
+    "": 1,
+    ".mq5": 1,
+    ".mqh": 1,
+    ".yml": 1
+  },
+  "by_category": {
+    "code": 2,
+    "data": 3,
+    "resource": 2,
+    "pipeline": 5,
+    "source": 4,
+    "other": 1
+  },
+  "by_level": {
+    "L2": {
+      "code": 0,
+      "data": 0,
+      "resource": 0,
+      "lines": 0
+    },
+    "L1": {
+      "code": 0,
+      "data": 0,
+      "resource": 0,
+      "lines": 0
+    },
+    "Core": {
+      "code": 0,
+      "data": 0,
+      "resource": 0,
+      "lines": 0
+    },
+    "IchimokuSignals": {
+      "code": 0,
+      "data": 0,
+      "resource": 0,
+      "lines": 0
+    },
+    "L3": {
+      "code": 0,
+      "data": 0,
+      "resource": 0,
+      "lines": 0
+    }
+  },
+  "by_directory": {
+    "pipeline": 5,
+    "Plan": 2,
+    "Templates": 2,
+    "Excel": 2,
+    "CHANGELOG.md": 1,
+    ".gitignore": 1,
+    "README.md": 1,
+    "HASHES.json": 1,
+    "PROJECT.json": 1,
+    ".github": 1
+  },
+  "infrastructure": {
+    "github": "https://github.com/KinSushi/IchiGrid-EA.git",
+    "ovh_http": "http://92.222.226.50:9000/"
+  },
+  "sections": []
+}

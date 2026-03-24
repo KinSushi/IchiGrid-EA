@@ -1,0 +1,577 @@
+Voici la **rédaction complète des 44 filtres Ichimoku activables**, intégrant toutes les logiques professionnelles avec leurs métadonnées : numéro, nom, relation testée côté achat, moment d’évaluation, type de comparaison, activation individuelle, et utilité tactique.
+
+**✅**** 44 FILTRES ICHIMOKU PROFESSIONNELS — VERSION RÉDIGÉE**
+
+**1. Prix ****>**** Tenkan-sen**
+
+- 🔄 Relation : le prix est au-dessus de la Tenkan
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : prix vs ligne
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : confirme une dynamique haussière immédiate
+
+**2. Prix ****>**** ****Kijun****-sen**
+
+- 🔄 Relation : le prix est au-dessus de la Kijun
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : prix vs ligne
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : filtre de tendance générale
+
+**3. Prix ****>**** Senkou Span A**
+
+- 🔄 Relation : le prix est au-dessus de la Senkou A
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : prix vs ligne projetée
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : cassure potentielle du nuage
+
+**4. Prix ****>**** Senkou Span B**
+
+- 🔄 Relation : le prix est au-dessus de la Senkou B
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : prix vs ligne projetée
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : force de la cassure du nuage
+
+**5. Prix au-dessus du nuage Kumo**
+
+- 🔄 Relation : prix > max(Senkou A, Senkou B)
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : prix vs nuage
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : tendance haussière claire
+
+**6. Prix à l’intérieur du nuage**
+
+- 🔄 Relation : prix entre Span A et Span B
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : prix vs nuage
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : marché en consolidation, prudence
+
+**7. Prix en-dessous du nuage**
+
+- 🔄 Relation : prix < min(Senkou A, Senkou B)
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : prix vs nuage
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : tendance baissière forte
+
+**8. Tenkan ****>**** ****Kijun**
+
+- 🔄 Relation : croisement haussier confirmé
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : ligne vs ligne
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : signal primaire de retournement haussier
+
+**9. Tenkan ****<**** ****Kijun**
+
+- 🔄 Relation : croisement baissier confirmé
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : ligne vs ligne
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : signal de retournement baissier
+
+**10. Senkou A ****>**** Senkou B**
+
+- 🔄 Relation : nuage haussier
+
+- 🕓 Moment : futur
+
+- ⚙️ Type : ligne vs ligne
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : structure favorable à l’achat
+
+**11. Senkou A ****<**** Senkou B**
+
+- 🔄 Relation : nuage baissier
+
+- 🕓 Moment : futur
+
+- ⚙️ Type : ligne vs ligne
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : structure défavorable à l’achat
+
+**12. ****Kijun****-sen plate**
+
+- 🔄 Relation : Kijun stable sur plusieurs bougies
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : ligne horizontale
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : détection d’un support ou résistance
+
+**13. Senkou B plate**
+
+- 🔄 Relation : Senkou B constante sur plusieurs périodes
+
+- 🕓 Moment : futur
+
+- ⚙️ Type : ligne horizontale projetée
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : SR anticipée très puissante
+
+**14. Chikou ****>**** prix**
+
+- 🔄 Relation : Chikou span au-dessus du prix 26 périodes en arrière
+
+- 🕓 Moment : passé
+
+- ⚙️ Type : Chikou vs prix
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : confirmation de tendance
+
+**15. Chikou ne touche pas le prix**
+
+- 🔄 Relation : aucun croisement Chikou/prix sur X barres
+
+- 🕓 Moment : passé
+
+- ⚙️ Type : Chikou vs prix
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : momentum dégagé
+
+**16. Chikou hors canal Tenkan–****Kijun**
+
+- 🔄 Relation : Chikou en dehors de la zone T/K
+
+- 🕓 Moment : passé
+
+- ⚙️ Type : Chikou vs Tenkan/Kijun
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : confirmation directionnelle
+
+**17. Chikou ****>**** Senkou A**
+
+- 🔄 Relation : Chikou au-dessus de Senkou A projeté
+
+- 🕓 Moment : passé/futur
+
+- ⚙️ Type : Chikou vs ligne projetée
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : force relative haussière
+
+**18. Chikou ****>**** Senkou B**
+
+- 🔄 Relation : Chikou au-dessus de Senkou B
+
+- 🕓 Moment : passé/futur
+
+- ⚙️ Type : Chikou vs ligne projetée
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : validation tendance
+
+**19. Chikou au-dessus du nuage**
+
+- 🔄 Relation : Chikou > max(Span A, B)
+
+- 🕓 Moment : passé/futur
+
+- ⚙️ Type : Chikou vs nuage
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : momentum propre
+
+**20. Chikou en-dessous du nuage**
+
+- 🔄 Relation : Chikou < min(Span A, B)
+
+- 🕓 Moment : passé/futur
+
+- ⚙️ Type : Chikou vs nuage
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : confirmation baissière
+
+**21. Prix ****>**** Chikou**
+
+- 🔄 Relation : prix actuel au-dessus de Chikou[n–26]
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : prix vs Chikou
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : confirmation directionnelle
+
+**22. Chikou croise ****Kijun**
+
+- 🔄 Relation : croisement dans le passé
+
+- 🕓 Moment : passé
+
+- ⚙️ Type : Chikou vs Kijun
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : validation / rejet de tendance
+
+**23. Chikou croise Tenkan**
+
+- 🔄 Relation : croisement dans le passé
+
+- 🕓 Moment : passé
+
+- ⚙️ Type : Chikou vs Tenkan
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : même rôle que ci-dessus
+
+**24. Pente Tenkan haussière**
+
+- 🔄 Relation : Tenkan[n] > Tenkan[n–1]
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : direction ligne
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : momentum actif
+
+**25. Pente ****Kijun**** haussière**
+
+- 🔄 Relation : Kijun[n] > Kijun[n–1]
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : direction ligne
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : filtre de dynamique
+
+**26. Pente Span A haussière**
+
+- 🔄 Relation : Span A en montée
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : direction ligne projetée
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : anticipation de force
+
+**27. Pente Span B haussière**
+
+- 🔄 Relation : Span B monte
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : direction ligne projetée
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : soutien à long terme
+
+**28. Épaisseur Kumo ≥ X points**
+
+- 🔄 Relation : |Span A – Span B| ≥ seuil
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : structure nuage
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : évaluer solidité tendance
+
+**29. Cassure du Kumo (breakout)**
+
+- 🔄 Relation : prix traverse le nuage
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : prix vs nuage
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : signal de déclenchement
+
+**30. Alignement Tenkan ****>**** ****Kijun**** ****>**** prix**
+
+- 🔄 Relation : structure idéale
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : hiérarchie lignes + prix
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : structure complète haussière
+
+Voici la **suite finale des filtres Ichimoku** du numéro **31 à 44**, dans le même format professionnel et structuré :
+
+**✅**** FILTRES ICHIMOKU 31 À 44 — SUITE ET FIN**
+
+**31. Croisement prix/****Kijun****-sen**
+
+- 🔄 Relation : prix croise Kijun à la hausse
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : prix vs ligne
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : signal de reprise après consolidation ou test de tendance
+
+**32. Croisement prix/Tenkan-sen**
+
+- 🔄 Relation : prix croise Tenkan à la hausse
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : prix vs ligne
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : signal d'entrée précoce ou reprise de micro-tendance
+
+**33. ****Retest**** du nuage après cassure**
+
+- 🔄 Relation : prix revient sur le Kumo après breakout
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : prix vs nuage
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : validation du breakout (pullback réussi)
+
+**34. Alignement parfait complet : Prix ****>**** Tenkan ****>**** ****Kijun**** ****>**** Kumo**
+
+- 🔄 Relation : hiérarchie parfaite des composants Ichimoku
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : structure globale
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : indication de tendance très forte et stable
+
+**35. Confluence ****Kijun**** = Senkou Span B**
+
+- 🔄 Relation : la Kijun actuelle correspond à une SSB future
+
+- 🕓 Moment : présent/futur
+
+- ⚙️ Type : SR temporelle
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : zone de support ou résistance puissante
+
+**36. Compression Tenkan / ****Kijun**** / prix**
+
+- 🔄 Relation : les 3 lignes sont très proches
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : convergence Ichimoku
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : alerte de range, prudence sur entrée
+
+**37. Chikou casse une résistance historique**
+
+- 🔄 Relation : Chikou franchit une clôture ancienne
+
+- 🕓 Moment : passé
+
+- ⚙️ Type : Chikou vs prix historique
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : confirmation d’un breakout légitime
+
+**38. Senkou A ****>**** B + ****Kijun**** haussière**
+
+- 🔄 Relation : double confirmation structurelle
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : combinaison lignes
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : tendance haussière stable et soutenue
+
+**39. Cassure de la SSB par le prix**
+
+- 🔄 Relation : prix traverse la Senkou Span B
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : prix vs ligne projetée
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : franchissement d’une résistance clé
+
+**40. Kumo Twist à venir**
+
+- 🔄 Relation : Span A croisera Span B dans X bougies
+
+- 🕓 Moment : futur
+
+- ⚙️ Type : twist du nuage
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : anticipation de retournement structurel
+
+**41. Tenkan = ****Kijun**
+
+- 🔄 Relation : égalité parfaite des deux lignes
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : ligne vs ligne
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : signal de range ou pause de tendance
+
+**42. Twist récent du nuage**
+
+- 🔄 Relation : croisement entre Span A et B dans les X dernières bougies
+
+- 🕓 Moment : passé proche
+
+- ⚙️ Type : changement de structure
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : détection de retournement récent
+
+**43. Prix proche d’une SSB plate**
+
+- 🔄 Relation : prix est à ±X points d’une Senkou B horizontale
+
+- 🕓 Moment : présent
+
+- ⚙️ Type : prix vs ligne plate projetée
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : anticipation de rebond ou de cassure
+
+**44. Chikou ****>**** toutes les lignes (T, K, A, B)**
+
+- 🔄 Relation : Chikou survole Tenkan, Kijun, Span A et B
+
+- 🕓 Moment : passé/futur
+
+- ⚙️ Type : Chikou vs ensemble Ichimoku
+
+- 🧩 Activation : oui
+
+- 🎯 Utilité : momentum extrême confirmé, filtre ultime de tendance
+
+Voici une **liste de filtres “bonus”** qu’on ne trouve pas toujours dans les 44 canoniques, mais que certains traders Ichimoku utilisent pour affiner leurs entrées/sorties. Je les classe par familles :
+
+**📊**** Filtres Multi-Unités de Temps**
+
+- **Concordance inter-****timeframes** :
+
+- Prix au-dessus du nuage **en ****daily**** ET en ****weekly** (tendance “propre”).
+
+- Tenkan > Kijun en H4 ET H1 pour valider une entrée intraday.
+
+- **Divergences entre unités** : par exemple, prix haussier en H1 mais encore sous Kumo en daily → filtre pour éviter les faux signaux.
+
+**⏱️**** Filtres de Momentum/Force**
+
+- **Distance prix–****Kijun** : si trop éloigné (ex. > X %), éviter l’achat → “surcharge”.
+
+- **Angle de pente** : mesurer l’inclinaison de Tenkan/Kijun (ex. > 30° = momentum fort).
+
+- **Accélération/décélération** : comparer variation de pente Tenkan sur 3 dernières bougies.
+
+**🎯**** Filtres de Contexte/Structure**
+
+- **Backtest réussi de la ****Kijun** : après cassure, le prix revient tester la Kijun et repart.
+
+- **Proximité de Span B plate** : éviter une entrée pile devant une résistance SSB connue.
+
+- **Confluence Ichimoku + autre outil** : ex. prix sur Kijun **et** RSI > 50.
+
+**🔮**** Filtres Prospectifs**
+
+- **Kumo Twist confirmé ET prix déjà engagé dans la direction** → anticipation avec validation.
+
+- **Projection de SSB à plat dans X périodes** : zones à venir considérées comme “magnétiques”.
+
+**🚦**** Filtres de Gestion/Pragmatiques**
+
+- **Filtre de volatilité** : Ichimoku + ATR → éviter les signaux dans volatilité trop faible.
+
+- **Filtre de tendance macro** : Ichimoku validé uniquement si la moyenne mobile 200 (hors Ichimoku) est alignée dans le même sens.
+
+👉 Ces filtres ne sont pas “purs Ichimoku”, mais ils prolongent sa logique. Disons que les 44 standards, c’est le **corps officiel**. Ceux-ci, c’est l’**arsenal de ninja discret** pour améliorer la précision.

@@ -1,0 +1,172 @@
+{
+  "_generated": "2026-03-24T00:22:09Z",
+  "_version": "7.0",
+  "_files": 27,
+  "_lines": 163786,
+  "files": {
+    "deploy.py": {
+      "sha256": "6a5c5a888975dee417d7a355e97f8de5ab81a3d36aa8d1a877d138c447ddaaaf",
+      "lines": 440,
+      "size": 17827,
+      "category": "pipeline"
+    },
+    "pipeline_config.json": {
+      "sha256": "3bafd47e823ad457c7e9cc25805b728494b661ac78576080b53a5ef70dd77a3e",
+      "lines": 53,
+      "size": 1869,
+      "category": "data"
+    },
+    "README.md": {
+      "sha256": "d7071f76ed6ae71192cad7b7a87a5ffaefa836492abb968197e72ab318c8d2cd",
+      "lines": 116,
+      "size": 3822,
+      "category": "resource"
+    },
+    "Push_Github_CMD.txt": {
+      "sha256": "3e2e58fcb1f52a44082fdb3f4a6637c691c5883acd60247a76a85129ef868027",
+      "lines": 9,
+      "size": 285,
+      "category": "resource"
+    },
+    "Descriptif_Explicatif_Pipeline.docx": {
+      "sha256": "6e4c128fc4dfc98f9e87fe10a1837e1093eeb606704f65d16a68415dbc1f48f8",
+      "lines": 123,
+      "size": 18658,
+      "category": "source"
+    },
+    "Effacer_Contenu_Branche_complete_GitHub.txt": {
+      "sha256": "252dcf0cd5069f7f340e3f51be7b258f4f2cc867ec5376593de29df3df3faeb8",
+      "lines": 15,
+      "size": 1220,
+      "category": "resource"
+    },
+    "Push_Contenu_dossier_sur_GitHub.txt": {
+      "sha256": "252dcf0cd5069f7f340e3f51be7b258f4f2cc867ec5376593de29df3df3faeb8",
+      "lines": 15,
+      "size": 1220,
+      "category": "resource"
+    },
+    "Effacer_Branche_Complete_Github.txt": {
+      "sha256": "93f1d5ac6c571cb9987a70e8f917d61ee7c67104369b9fc237a5e0a3601fc73b",
+      "lines": 54,
+      "size": 1360,
+      "category": "resource"
+    },
+    "PROJECT.json": {
+      "sha256": "7f4541b44d9b4d70a40d8d6fcef5bec1ba1492d6d723da9686047b7cd9850fa8",
+      "lines": 80,
+      "size": 1558,
+      "category": "data"
+    },
+    "HASHES.json": {
+      "sha256": "d9559eea630eb51093b4a72729aad713dd4f683cb3a198678389f50539fae1be",
+      "lines": 56,
+      "size": 1721,
+      "category": "data"
+    },
+    "IchiGrid-EA-v7/IchiGrid-EA/CHANGELOG.md": {
+      "sha256": "c1e34636a5007989bdf82c99278efce24569a36728da51ddc094472334d17810",
+      "lines": 31,
+      "size": 1029,
+      "category": "resource"
+    },
+    "IchiGrid-EA-v7/IchiGrid-EA/.gitignore": {
+      "sha256": "409e0e1cfd7254a2d7a11994c1b0d7a3e495a35d3156dbf1d38a96a76211a4ee",
+      "lines": 12,
+      "size": 93,
+      "category": "other"
+    },
+    "IchiGrid-EA-v7/IchiGrid-EA/README.md": {
+      "sha256": "9ea13b1a1e05be20f14207d32f1c6b1a45da24012741bcd76272cc7639dcf7bb",
+      "lines": 116,
+      "size": 3861,
+      "category": "resource"
+    },
+    "IchiGrid-EA-v7/IchiGrid-EA/HASHES.json": {
+      "sha256": "bc419639f988035203372ec5e80784eb64d672575c81fe4f7f33d7e26710b3ac",
+      "lines": 112,
+      "size": 3467,
+      "category": "data"
+    },
+    "IchiGrid-EA-v7/IchiGrid-EA/PROJECT.json": {
+      "sha256": "3d14a9beecab71a6b8992268bd2f10e9c78a22b109be5617046f62c742f6e274",
+      "lines": 86,
+      "size": 1523,
+      "category": "data"
+    },
+    "IchiGrid-EA-v7/IchiGrid-EA/Plan/01_760.docx": {
+      "sha256": "8aaf650de207afbf2e248eaeb7bd38a818d976fb4950370012dfeaec05e430ea",
+      "lines": 118244,
+      "size": 3377924,
+      "category": "source"
+    },
+    "IchiGrid-EA-v7/IchiGrid-EA/Plan/00_Filtres_ichimoku_44_avec_bonus.docx": {
+      "sha256": "4b492d56517569bfb8a536df895aee7aa22c69244708c25c52578dbb047a9ff2",
+      "lines": 577,
+      "size": 12664,
+      "category": "source"
+    },
+    "IchiGrid-EA-v7/IchiGrid-EA/Templates/_EA_NAME___v412_.mq5": {
+      "sha256": "0ef94367e8e6916d4385f853562dde6a96782a7d69ecbca538eb60784fda69a0",
+      "lines": 249,
+      "size": 12283,
+      "category": "code",
+      "gen_model": "{MODEL_ID}"
+    },
+    "IchiGrid-EA-v7/IchiGrid-EA/Templates/_MODULE_NAME___v412_.mqh": {
+      "sha256": "2acebafbf78059f66a6bdde5ae012023569755a65eac2e926faf478beddf2648",
+      "lines": 2854,
+      "size": 140952,
+      "category": "code",
+      "gen_model": "{MODEL_ID}"
+    },
+    "IchiGrid-EA-v7/IchiGrid-EA/pipeline/config/pipeline.json": {
+      "sha256": "3bafd47e823ad457c7e9cc25805b728494b661ac78576080b53a5ef70dd77a3e",
+      "lines": 53,
+      "size": 1869,
+      "category": "data"
+    },
+    "IchiGrid-EA-v7/IchiGrid-EA/pipeline/scripts/deploy.py": {
+      "sha256": "6a5c5a888975dee417d7a355e97f8de5ab81a3d36aa8d1a877d138c447ddaaaf",
+      "lines": 440,
+      "size": 17827,
+      "category": "pipeline"
+    },
+    "IchiGrid-EA-v7/IchiGrid-EA/pipeline/scripts/excel_hash_sync.py": {
+      "sha256": "0629d95d979bc70e9b83aebbd3a5afe215ec62d557d2d085ff1dcaa8ed74ce1a",
+      "lines": 402,
+      "size": 16300,
+      "category": "pipeline"
+    },
+    "IchiGrid-EA-v7/IchiGrid-EA/pipeline/scripts/ea_plan_builder.py": {
+      "sha256": "b737ad5a33dfb57cb9f5709cfa293d763da4d512d066c2a828abb0bc750313d6",
+      "lines": 1196,
+      "size": 53482,
+      "category": "pipeline"
+    },
+    "IchiGrid-EA-v7/IchiGrid-EA/pipeline/scripts/vllm_generate.py": {
+      "sha256": "8e966a8a77e8d80d2ab741f7bd00f8ee20e6ea0cf3da21df1b663e8e55393589",
+      "lines": 276,
+      "size": 10366,
+      "category": "pipeline"
+    },
+    "IchiGrid-EA-v7/IchiGrid-EA/.github/workflows/pipeline.yml": {
+      "sha256": "c4c97bacd4628857cd69fded96ccc91a46d13d3130653628615c37083bcd57a1",
+      "lines": 75,
+      "size": 2217,
+      "category": "pipeline"
+    },
+    "IchiGrid-EA-v7/IchiGrid-EA/Excel/EA_Master.xlsx": {
+      "sha256": "369a709ea8db594e74318874a439676730f9ae28012df9c7b2a4111d3b762d8a",
+      "lines": 17376,
+      "size": 2076834,
+      "category": "source"
+    },
+    "IchiGrid-EA-v7/IchiGrid-EA/Excel/EA_Master_vLLM.xlsx": {
+      "sha256": "cf2f11497f76d23459bb6db801b99892339498699d961699d30bb51c22e6c59a",
+      "lines": 20726,
+      "size": 2892049,
+      "category": "source"
+    }
+  }
+}

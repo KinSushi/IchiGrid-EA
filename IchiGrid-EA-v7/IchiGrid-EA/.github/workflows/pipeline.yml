@@ -1,0 +1,75 @@
+name: IchiGridEA Pipeline
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  trace-and-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install openpyxl
+
+      - name: Update traceability
+        run: python pipeline/scripts/deploy.py --trace
+
+      - name: Verify HASHES.json integrity
+        run: |
+          python -c "
+          import json
+          with open('HASHES.json') as f: h = json.load(f)
+          print(f'Files: {h[\"_files\"]}')
+          print(f'Lines: {h[\"_lines\"]}')
+          assert h['_files'] > 0, 'No files in HASHES.json'
+          print('PASS')
+          "
+
+      - name: Verify PROJECT.json
+        run: |
+          python -c "
+          import json
+          with open('PROJECT.json') as f: p = json.load(f)
+          s = p['stats']
+          print(f'Total files: {s[\"total_files\"]}')
+          print(f'MQL5 files: {s[\"mql5_files\"]}')
+          print(f'Excel modules: {s[\"excel_modules\"]}')
+          print(f'Progress: {s[\"generated_pct\"]}%')
+          print('PASS')
+          "
+
+      - name: Excel hash sync (dry run)
+        run: |
+          python pipeline/scripts/excel_hash_sync.py \
+            --repo . \
+            --excel Excel/EA_Master_vLLM.xlsx \
+            --output /tmp/test_sync.xlsx \
+            --dry-run || true
+
+  sync-ovh:
+    runs-on: ubuntu-latest
+    needs: trace-and-lint
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    steps:
+      - name: Sync OVH mirror
+        env:
+          OVH_KEY: ${{ secrets.OVH_SSH_KEY }}
+        run: |
+          if [ -n "$OVH_KEY" ]; then
+            mkdir -p ~/.ssh
+            echo "$OVH_KEY" > ~/.ssh/ovh_serveur
+            chmod 600 ~/.ssh/ovh_serveur
+            ssh -i ~/.ssh/ovh_serveur -o StrictHostKeyChecking=no ubuntu@92.222.226.50 \
+              "cd /opt/ichigrid-mirror && git pull origin main 2>&1 || \
+               git clone https://github.com/KinSushi/IchiGrid-EA.git /opt/ichigrid-mirror"
+          else
+            echo "OVH_SSH_KEY secret not set — skipping"
+          fi

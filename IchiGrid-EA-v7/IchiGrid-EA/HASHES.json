@@ -1,0 +1,112 @@
+{
+  "_generated": "2026-03-23T20:01:44Z",
+  "_version": "7.0",
+  "_files": 17,
+  "_lines": 162692,
+  "files": {
+    "CHANGELOG.md": {
+      "sha256": "c1e34636a5007989bdf82c99278efce24569a36728da51ddc094472334d17810",
+      "lines": 31,
+      "size": 1029,
+      "category": "resource"
+    },
+    ".gitignore": {
+      "sha256": "409e0e1cfd7254a2d7a11994c1b0d7a3e495a35d3156dbf1d38a96a76211a4ee",
+      "lines": 12,
+      "size": 93,
+      "category": "other"
+    },
+    "README.md": {
+      "sha256": "939ca4654b1da1ad1d02b5bf1bc087be0c7d35fc887655e39c30980e515b476c",
+      "lines": 78,
+      "size": 2364,
+      "category": "resource"
+    },
+    "HASHES.json": {
+      "sha256": "5be30919f80aba61531d27afba1867d421d1e609732a74e7d14c6a5683430edd",
+      "lines": 68,
+      "size": 2157,
+      "category": "data"
+    },
+    "PROJECT.json": {
+      "sha256": "e35eae915a9c43be6aa45bf09a80b319672a4f45c4719fb88d3d065e95bf03c3",
+      "lines": 35,
+      "size": 659,
+      "category": "data"
+    },
+    "Plan/01_760.docx": {
+      "sha256": "8aaf650de207afbf2e248eaeb7bd38a818d976fb4950370012dfeaec05e430ea",
+      "lines": 118244,
+      "size": 3377924,
+      "category": "source"
+    },
+    "Plan/00_Filtres_ichimoku_44_avec_bonus.docx": {
+      "sha256": "4b492d56517569bfb8a536df895aee7aa22c69244708c25c52578dbb047a9ff2",
+      "lines": 577,
+      "size": 12664,
+      "category": "source"
+    },
+    "Templates/_EA_NAME___v412_.mq5": {
+      "sha256": "0ef94367e8e6916d4385f853562dde6a96782a7d69ecbca538eb60784fda69a0",
+      "lines": 249,
+      "size": 12283,
+      "category": "code",
+      "gen_model": "{MODEL_ID}"
+    },
+    "Templates/_MODULE_NAME___v412_.mqh": {
+      "sha256": "2acebafbf78059f66a6bdde5ae012023569755a65eac2e926faf478beddf2648",
+      "lines": 2854,
+      "size": 140952,
+      "category": "code",
+      "gen_model": "{MODEL_ID}"
+    },
+    "pipeline/config/pipeline.json": {
+      "sha256": "3bafd47e823ad457c7e9cc25805b728494b661ac78576080b53a5ef70dd77a3e",
+      "lines": 53,
+      "size": 1869,
+      "category": "data"
+    },
+    "pipeline/scripts/deploy.py": {
+      "sha256": "6a5c5a888975dee417d7a355e97f8de5ab81a3d36aa8d1a877d138c447ddaaaf",
+      "lines": 440,
+      "size": 17827,
+      "category": "pipeline"
+    },
+    "pipeline/scripts/excel_hash_sync.py": {
+      "sha256": "0629d95d979bc70e9b83aebbd3a5afe215ec62d557d2d085ff1dcaa8ed74ce1a",
+      "lines": 402,
+      "size": 16300,
+      "category": "pipeline"
+    },
+    "pipeline/scripts/ea_plan_builder.py": {
+      "sha256": "b737ad5a33dfb57cb9f5709cfa293d763da4d512d066c2a828abb0bc750313d6",
+      "lines": 1196,
+      "size": 53482,
+      "category": "pipeline"
+    },
+    "pipeline/scripts/vllm_generate.py": {
+      "sha256": "8e966a8a77e8d80d2ab741f7bd00f8ee20e6ea0cf3da21df1b663e8e55393589",
+      "lines": 276,
+      "size": 10366,
+      "category": "pipeline"
+    },
+    ".github/workflows/pipeline.yml": {
+      "sha256": "c4c97bacd4628857cd69fded96ccc91a46d13d3130653628615c37083bcd57a1",
+      "lines": 75,
+      "size": 2217,
+      "category": "pipeline"
+    },
+    "Excel/EA_Master.xlsx": {
+      "sha256": "369a709ea8db594e74318874a439676730f9ae28012df9c7b2a4111d3b762d8a",
+      "lines": 17376,
+      "size": 2076834,
+      "category": "source"
+    },
+    "Excel/EA_Master_vLLM.xlsx": {
+      "sha256": "cf2f11497f76d23459bb6db801b99892339498699d961699d30bb51c22e6c59a",
+      "lines": 20726,
+      "size": 2892049,
+      "category": "source"
+    }
+  }
+}

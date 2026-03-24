@@ -1,0 +1,15 @@
+Deux options, du plus simple au plus propre :
+Option 1 — Force push (recommandé, 3 commandes)
+Depuis ta machine Windows, dans le dossier où tu as extrait l'archive :
+bashcd C:\Users\Enzo\Downloads\IchiGrid-EA
+git init
+git branch -m main
+git remote add origin https://github.com/KinSushi/IchiGrid-EA.git
+git add -A
+git commit -m "v7.0: Clean slate"
+git push --force origin main
+Le --force écrase tout l'historique. L'ancien contenu disparaît. Le repo ne contient plus que les 17 fichiers propres.
+Option 2 — Si tu veux d'abord vider via l'interface GitHub
+GitHub → repo → Settings (tout en bas) → Danger Zone → Delete this repository. Puis recréer un repo vide du même nom sur github.com/new, et faire un push normal sans --force.
+Mon avis : Option 1. Plus rapide, pas de risque de perdre le nom du repo ou les settings (secrets, webhooks). Le force push fait exactement ce qu'il faut — il remplace l'historique entier par ton nouveau commit v7.0.
+Si git te demande un mot de passe, c'est qu'il faut un Personal Access Token : GitHub → Settings → Developer settings → Personal access tokens → Generate new token (classic) → cocher repo → utiliser le token comme mot de passe.

@@ -1,0 +1,9 @@
+Pour wiper GitHub et pousser :
+
+cd C:\Users\Enzo\Downloads
+tar xzf IchiGrid-EA-v7.tar.gz
+cd IchiGrid-EA
+git init && git branch -m main
+git remote add origin https://github.com/KinSushi/IchiGrid-EA.git
+git add -A && git commit -m "v7.0: Clean slate"
+git push --force origin main
