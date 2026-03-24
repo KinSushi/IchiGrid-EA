@@ -14,7 +14,7 @@ Expert Advisor MetaTrader 5 — Ichimoku + Grid Trading avec IA adaptative.
 | Resources (.png/.log/.md) | **7** |
 | Progression | **1500.0%** |
 | Sections couvertes | **0** |
-| Dernière MAJ | `2026-03-24T00:22:09Z` |
+| Dernière MAJ | `2026-03-24T00:28:14Z` |
 
 ## Par niveau
 
@@ -113,4 +113,4 @@ Chaque module peut produire 1 à 3 fichiers. Le routage est automatique:
 Le `<Level>` est dérivé du champ `Path` de l'Excel (EA::Core::S2 → Core).
 
 ---
-*Auto-généré par `deploy.py` — 2026-03-24T00:22:09Z*
+*Auto-généré par `deploy.py` — 2026-03-24T00:28:14Z*
